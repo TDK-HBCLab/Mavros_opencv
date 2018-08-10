@@ -1,0 +1,11 @@
+<launch>
+<node pkg="offb" type="ultrasonic.py" name="ultrasonic" output="screen">
+ </node>
+
+<node pkg="offb" type="GoMission" name="GoMission" output="screen">
+ </node>
+
+<node pkg="offb" type="Image" name="Image" output="screen">
+ </node>
+
+</launch>
